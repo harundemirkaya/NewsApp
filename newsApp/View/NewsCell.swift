@@ -11,7 +11,6 @@ class NewsCell: UITableViewCell {
 
     @IBOutlet weak var lblNewsTitle: UILabel!
     @IBOutlet weak var lblNewsDescription: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
