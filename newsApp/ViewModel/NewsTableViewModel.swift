@@ -9,7 +9,9 @@ import Foundation
 
 struct NewsTableViewModel{
     let newsList: [News]
-    
+}
+
+extension NewsTableViewModel{
     func numberOfRowsSection() -> Int {
         return self.newsList.count
     }
@@ -18,5 +20,4 @@ struct NewsTableViewModel{
         let news = self.newsList[index]
         return NewsViewModel(news: news)
     }
-        
 }
